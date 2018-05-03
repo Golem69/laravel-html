@@ -15,7 +15,7 @@ class Option extends BaseElement implements Selectable
      */
     public function selected()
     {
-        return $this->attribute('selected', 'selected');
+        return $this->attribute('selected');
     }
 
     /**
